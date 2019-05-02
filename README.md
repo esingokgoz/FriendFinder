@@ -1,1 +1,1 @@
-# StudyBuddy
+# Loner Fighter
