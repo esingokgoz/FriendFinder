@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.jumbotron{
+    font-family: 'Black And White Picture', sans-serif;
+    letter-spacing: 2px;
+    color: #9cd3d4;
+    text-align: center;
+    background-color:transparent;
+    /* opacity: 0.5; */
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 2%;
+    border-radius: 5%;
+    border: solid #9cd3d4 2px;
+}
+.jumbo_bckground {
+    background-color: black;
+    opacity: .5;
+}
