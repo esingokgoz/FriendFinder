@@ -3,9 +3,25 @@
 // Below data will hold all of the user data
 // ===============================================================================
 
-var friends = [];
+var friends = [
+  {
+    "name": "Bob",
+    "photo": "http://clipart-library.com/images/8cG6zbgni.jpg",
+    "scores": [
+      "5",
+      "1",
+      "4",
+      "4",
+      "5",
+      "1",
+      "2",
+      "5",
+      "4",
+      "1"
+    ]
+  }
+];
 
-  
-  // Note how we export the array. This makes it accessible to other files using require.
-  module.exports = tableArray;
-  
+
+module.exports = friends;
+// console.log(friends);

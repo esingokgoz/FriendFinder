@@ -13,7 +13,7 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
-app.use(urlencoded({ extended: true })); ////ASK THIS
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // ================================================================================
@@ -26,5 +26,5 @@ require("./app/routing/htmlRoutes");
 // LISTENER
 // =============================================================================
 app.listen(PORT, () => {
-    console.log(`App listening on PORT: ${PORT}`);   /////ASK THIS
+    console.log(`App listening on PORT: ${PORT}`); 
 })
