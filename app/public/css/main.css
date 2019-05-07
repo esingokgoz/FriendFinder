@@ -19,3 +19,13 @@ body {
     background-color: black;
     opacity: .5;
 }
+
+.forma {
+    background-color: lightyellow;
+    padding: 2%;
+    border-radius: 3%;
+}
+
+#start-btn hover{
+    background-color: yellow;
+}

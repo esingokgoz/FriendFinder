@@ -5,7 +5,7 @@
 
 var friends = [
   {
-    "name": "Bob",
+    "name": "Popeye",
     "photo": "http://clipart-library.com/images/8cG6zbgni.jpg",
     "scores": [
       "5",
